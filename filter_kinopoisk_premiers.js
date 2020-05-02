@@ -19,7 +19,7 @@
         all.forEach(function(item) {
             item.childNodes.forEach(function(childNode) {
                 if (childNode.className == "ajax_rating") {
-                    var ratingText = childNode.children[0].children[0].innerText.split(" ")[0];
+                    var ratingText = childNode.children[0].children[0].innerText;
                     if (parseFloat(ratingText) < MIN_RATING || ratingText.includes("—")) {
                         item.remove();
                     }
