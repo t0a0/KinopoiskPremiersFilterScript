@@ -2,7 +2,7 @@
 // @name         Kinopoisk filter premiers
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  Blends out premier items with rating under the specified
+// @description  Removes premier items with rating under the specified
 // @author       Igor Fedotov
 // @match        https://www.kinopoisk.ru/premiere/*
 // @grant        none
